@@ -2,13 +2,9 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # Base Configuration
-#CDM_BASE_URL = "https://lbsvm29.tuc.stglabs.ibm.com:8443/api"
-#API_URL = "https://192.168.72.50:8443/api/endeavour"
-#USERNAME = "apiuser"
-#PASSWORD = "tucsonAPIpa$$w0rd"
-CDM_BASE_URL = "https://192.168.72.50:8443/api"
+CDM_BASE_URL = "https://x.x.x.x:8443/api"
 USERNAME = "admin"
-PASSWORD = "CDM!ATSP@ssw0rd"  # Updated password
+PASSWORD = "password"  # Updated password
 
 def get_session_id():
     """Logs in and returns the session ID."""
