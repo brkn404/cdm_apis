@@ -6,9 +6,9 @@ import json
 import time
 
 # Constants
-CDM_BASE_URL = "https://192.168.72.50:8443/api/endeavour"
+CDM_BASE_URL = "https://x.x.x.x:8443/api/endeavour"
 USERNAME = "admin"
-PASSWORD = "CDM!ATSP@ssw0rd"
+PASSWORD = "password"
 JOB_1031 = "1031"  # Job 1031 ID
 JOB_1044 = "1044"  # Job 1044 ID
 SLA_POLICY_ID = "15"  # SLA policy ID for both jobs (update if different per job)
